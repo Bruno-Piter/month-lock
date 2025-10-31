@@ -2,6 +2,9 @@
 
 Modal simples e tipado para **bloquear/desbloquear competências mensais em lote**. Ele é **agnóstico de back‑end** (você injeta as funções de `loadYear` e `onSave`), suporta **i18n via `labels`**, tem **toasts**, **confirmação de alterações**, e animações suaves — tudo com **React 18** + **TypeScript**. Os estilos utilizam classes Tailwind, mas podem ser trocados pelo CSS da sua base.
 
+https://github.com/user-attachments/assets/dff5b8e6-78cc-4d98-be54-9dc578710240
+
+
 > **Origem:** `src/components/MonthLockModal.tsx`  
 > **Demo mínima:** ver `src/App.tsx` neste repositório.
 
