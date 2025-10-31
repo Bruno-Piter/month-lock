@@ -194,12 +194,3 @@ month-lock/
 ├─ tsconfig.json
 └─ vite.config.ts
 ```
-
----
-
-## ❗ Troubleshooting ❗
-
-- **Nada acontece ao clicar em Salvar**: verifique se houve mudanças; caso contrário, um toast é exibido e o modal fecha.  
-- **Não carregou dados do ano**: confirme se `loadYear` está definido e retornando um `MonthLockMap` válido (1..12).  
-- **Cores/estilos**: se você não usa Tailwind, troque as classes ou adicione CSS equivalente.  
-- **Sem foco no modal**: implemente focus trap se sua app exige requisitos A11y mais rigorosos.
